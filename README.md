@@ -3,6 +3,18 @@
 A warm, cozy autumn theme for [Obsidian](https://obsidian.md) with soft pink undertones and golden amber accents.
 
 ---
+
+## 📑 Table of Contents
+
+- [✨ Features](#-features)
+- [📸 Screenshots](#-screenshots)
+- [📦 Installation](#-installation)
+- [🎨 Color Palette](#-color-palette)
+- [🛠️ Customization](#customization)
+- [📝 Credits](#-credits)
+---
+
+<a id="features"></a>
 ## ✨ Features
 
 - 🎨 Warm autumn color palette with copper and rose tones
@@ -15,20 +27,21 @@ A warm, cozy autumn theme for [Obsidian](https://obsidian.md) with soft pink und
 - 🖊️ Smooth animations and transitions
 
 ---
+
+<a id="screenshots"></a>
 ## 📸 Screenshots
 
 ### Dark Mode
 ![Dark Mode](img/dark1.png)
-
 ![Dark Mode](img/dark2.png)
-
 
 ### Light Mode
 ![Light Mode](img/light1.png)
-
 ![Light Mode](img/light2.png)
 
 ---
+
+<a id="installation"></a>
 ## 📦 Installation
 
 ### From Obsidian Community Themes
@@ -44,27 +57,53 @@ A warm, cozy autumn theme for [Obsidian](https://obsidian.md) with soft pink und
 4. Enable the theme in Obsidian Settings → Appearance → Themes
 
 ---
+
+<a id="color-palette"></a>
 ## 🎨 Color Palette
 
 ### Dark Theme
-- Background: `#2b231d` (warm dark brown)
-- Text: `#e8d6c8` (cream)
-- Accent: `#d4874c` (copper orange)
-- Highlights: `#f0c27a` (golden)
+| Element | Color | Description |
+|---------|-------|-------------|
+| Background | `#2b231d` | Warm dark brown |
+| Text | `#e8d6c8` | Cream |
+| Accent | `#d4874c` | Copper orange |
+| Highlights | `#f0c27a` | Golden |
 
 ### Light Theme
-- Background: `#f5e8e4` (soft pink)
-- Text: `#4a3830` (warm dark brown)
-- Accent: `#d4874c` (copper orange)
-- Highlights: `#f0c27a` (golden)
+| Element | Color | Description |
+|---------|-------|-------------|
+| Background | `#f5e8e4` | Soft pink |
+| Text | `#4a3830` | Warm dark brown |
+| Accent | `#d4874c` | Copper orange |
+| Highlights | `#f0c27a` | Golden |
 
 ---
+
+<a id="customization"></a>
 ## 🛠️ Customization
 
 ### Changing Colors
 You can customize the theme by editing the CSS variables in `theme.css`:
 
 ```css
---autumn-gold: #f0c27a;    /* Change to your preferred gold */
---autumn-orange: #d4874c;  /* Change to your preferred orange */
+--autumn-gold: #f0c27a;      /* Change to your preferred gold */
+--autumn-orange: #d4874c;    /* Change to your preferred orange */
 --autumn-terracotta: #b5653b; /* Change to your preferred terracotta */
+```
+
+### Recommended Accent Color
+
+For the best experience, set your Obsidian accent color to:
+
+- RGB: 212, 135, 76
+- HEX: #d4874c
+
+>Note: The theme hardcodes accent colors, so user settings will be overridden.
+
+---
+
+<a id="credits"></a>
+## 📝 Credits
+- Inspired by autumn colors and cozy reading environments
+- Typography: Georgia, Playfair Display, JetBrains Mono
+- Designed for comfort and aesthetics
