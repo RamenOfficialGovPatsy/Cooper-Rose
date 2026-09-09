@@ -156,41 +156,41 @@
 .theme-dark,
 .theme-light {
   /* Main accent */
-  --interactive-accent: #d4874c !important;
-  --interactive-accent-hover: #e8975c !important;
-  --interactive-accent-rgb: 212, 135, 76 !important;
+  --interactive-accent: #d4874c ;
+  --interactive-accent-hover: #e8975c ;
+  --interactive-accent-rgb: 212, 135, 76 ;
   
   /* Text accent */
-  --text-accent: #f0c27a !important;
-  --text-accent-hover: #f5d48a !important;
+  --text-accent: #f0c27a ;
+  --text-accent-hover: #f5d48a ;
   
   /* Link accent */
-  --link-color: #e8a87c !important;
-  --link-color-hover: #f0c27a !important;
+  --link-color: #e8a87c ;
+  --link-color-hover: #f0c27a ;
   
   /* Tag accent */
-  --tag-color: #d4a373 !important;
-  --tag-background: rgba(74, 62, 54, 0.6) !important;
-  --tag-background-hover: #d4874c !important;
-  --tag-color-hover: #2b231d !important;
+  --tag-color: #d4a373 ;
+  --tag-background: rgba(74, 62, 54, 0.6) ;
+  --tag-background-hover: #d4874c ;
+  --tag-color-hover: #2b231d ;
   
   /* Graph accent */
-  --graph-node-color: #f0c27a !important;
-  --graph-node-tag-color: #d4a373 !important;
-  --graph-node-attachment-color: #b5653b !important;
+  --graph-node-color: #f0c27a ;
+  --graph-node-tag-color: #d4a373 ;
+  --graph-node-attachment-color: #b5653b ;
   
   /* Scrollbar accent */
-  --scrollbar-thumb-bg: #d4874c !important;
-  --scrollbar-active-thumb-bg: #f0c27a !important;
+  --scrollbar-thumb-bg: #d4874c ;
+  --scrollbar-active-thumb-bg: #f0c27a ;
   
   /* Button accent */
-  --button-bg-color: #d4874c !important;
-  --button-text-color: #2b231d !important;
-  --button-hover-bg-color: #e8975c !important;
-  --button-hover-text-color: #2b231d !important;
+  --button-bg-color: #d4874c ;
+  --button-text-color: #2b231d ;
+  --button-hover-bg-color: #e8975c ;
+  --button-hover-text-color: #2b231d ;
   
   /* Tab accent */
-  --tab-outline-color: #d4874c !important;
+  --tab-outline-color: #d4874c ;
 }
 
 /* ===== GENERAL STYLES ===== */
@@ -279,6 +279,7 @@ a {
 a:hover {
   color: var(--link-color-hover);
   text-decoration: underline;
+  text-underline-offset: 2px;
   text-decoration-color: var(--interactive-accent);
 }
 
@@ -567,8 +568,8 @@ hr {
 
 /* ===== BUTTONS ===== */
 button, .mod-cta {
-  background-color: var(--button-bg-color) !important;
-  color: var(--button-text-color) !important;
+  background-color: var(--button-bg-color) ;
+  color: var(--button-text-color) ;
   border: none;
   padding: 0.4em 1.2em;
   border-radius: 4px;
@@ -578,35 +579,35 @@ button, .mod-cta {
 }
 
 button:hover, .mod-cta:hover {
-  background-color: var(--button-hover-bg-color) !important;
-  color: var(--button-hover-text-color) !important;
+  background-color: var(--button-hover-bg-color) ;
+  color: var(--button-hover-text-color) ;
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(212, 135, 76, 0.3);
 }
 
 /* Settings */
 .vertical-tab-nav-item.is-active {
-  background-color: var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+  background-color: var(--interactive-accent) ;
+  color: var(--text-on-accent) ;
   font-weight: 600;
 }
 
 .vertical-tab-nav-item.is-active:hover {
-  background-color: var(--interactive-accent-hover) !important;
-  color: var(--text-on-accent) !important;
+  background-color: var(--interactive-accent-hover) ;
+  color: var(--text-on-accent) ;
 }
 
 .checkbox-container.is-enabled {
-  background-color: var(--interactive-accent) !important;
+  background-color: var(--interactive-accent) ;
 }
 
 .checkbox-container.is-enabled:hover {
-  background-color: var(--interactive-accent-hover) !important;
+  background-color: var(--interactive-accent-hover) ;
 }
 
 .flair.mod-pop {
-  background-color: var(--interactive-accent) !important;
-  color: var(--text-on-accent) !important;
+  background-color: var(--interactive-accent) ;
+  color: var(--text-on-accent) ;
 }
 
 /* ===== LISTS ===== */
