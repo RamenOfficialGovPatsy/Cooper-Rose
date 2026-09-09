@@ -50,7 +50,7 @@ A warm, cozy autumn theme for [Obsidian](https://obsidian.md) with soft pink und
 3. Search for "Copper Rose"
 4. Click **Install** and then **Use**
 
->Note: The theme has not yet been added to the Obsidian theme store
+>Note: Topic sent for moderation by Obsidian
 
 ### Manual Installation
 1. Download the `theme.css` and `manifest.json` files
