@@ -278,8 +278,7 @@ a {
 .internal-link:hover,
 a:hover {
   color: var(--link-color-hover);
-  text-underline-offset: 2px;
-  text-decoration-color: var(--interactive-accent);
+  border-bottom: 1px solid var(--interactive-accent); /* ← Замена text-decoration */
 }
 
 .external-link {
